@@ -7,7 +7,7 @@ In addition, data about the stores location was included thanks to the work shar
 ## Use of:
 * **Python** version 3.9.7
     * **Main Packages used:** pandas, seaborn, sklearn, pickle, LIME
-* **Tableau Public**
+* [**Power BI**](https://app.powerbi.com/view?r=eyJrIjoiMjI1Njk1NzEtMjlhYS00ZjY5LTlhNWQtMmViM2ZjYTE2OGIyIiwidCI6ImI4MDhjYjg5LTI5MjItNDgxMC1hNzRjLWNmYzU4NzBjODlhOSJ9&pageName=ReportSection)
 
 # Overview
 ## Main Results
@@ -22,10 +22,13 @@ In addition, data about the stores location was included thanks to the work shar
 * The model gets a public score of 0.11861 but a final score of 0.13248 (best final score in competition: 0.10021)
 
 ## Main Steps
+### Data Cleaning & Exploration
 * Conducted an exploratory data analysis to be able to better understand the data and clean it for future forecasting 
 * Applied an Adfuller statistical test to verify stationarity
 * Studied differences between the best and worst performing stores
-* Conducted further analysis thanks to visualizations on [Tableau](https://public.tableau.com/app/profile/paula2733/viz/Sales_16476157430450/SalesReport)
+* Conducted further analysis on Power BI using M and DAX, then built a  [report](https://app.powerbi.com/view?r=eyJrIjoiMjI1Njk1NzEtMjlhYS00ZjY5LTlhNWQtMmViM2ZjYTE2OGIyIiwidCI6ImI4MDhjYjg5LTI5MjItNDgxMC1hNzRjLWNmYzU4NzBjODlhOSJ9&pageName=ReportSection)
+
+### Modeling
 * Applied a preprocessing pipeline to clean validation set
 * Explored different tree-based models and fine-tuned hyperparameters on the best peforming models using 3-fold cross validation with time series split
 * Applied a preprocessing pipeline to clean validation set to test model performance
